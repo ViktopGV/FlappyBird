@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28fc9b92c1e4d78438de4bed229bd959, type: 3}
   m_Name: OrangeBird
   m_EditorClassIdentifier: 
-  Name: "\u0414\u044B\u043D\u044F"
-  Description: "\u0414\u044B\u043D\u044F - \u0436\u0435\u043B\u0442\u0430\u044F,
-    \u043A\u043E\u0433\u0434\u0430 \u0441\u0432\u0435\u0436\u0430\u044F."
+  Name: Melon
+  Description: Melon is yellow when fresh.
   RepresentBirdImage: {fileID: -6887638278308970878, guid: 0972a8dfe091cbe479a451bc6e59d016, type: 3}
   AnimatorController: {fileID: 9100000, guid: 1cc63f8e0d45ce3438085f52013ed886, type: 2}
