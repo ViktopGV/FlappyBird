@@ -24,12 +24,12 @@ public class ChooseSkinPanel : MonoBehaviour
         Image birdImage = item.GetChild(0).GetComponent<Image>();
         Text birdName = item.GetChild(1).GetComponent<Text>();
         Text birdDesc = item.GetChild(2).GetComponent<Text>();
-        Button selectBird = item.GetChild(3).GetComponent<Button>();
+        Button selectBirdBtn = item.GetChild(3).GetComponent<Button>();
 
         birdName.text = _birdContainer[index].Name;
         birdDesc.text = _birdContainer[index].Description;
         birdImage.sprite = _birdContainer[index].RepresentBirdImage;
-        selectBird.onClick.AddListener(() =>
+        selectBirdBtn.onClick.AddListener(() =>
         {
             _player.SetPlayerBird(index);
             BirdSelected?.Invoke();
